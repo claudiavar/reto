@@ -1,0 +1,37 @@
+.foto {
+    margin-top: 6%;
+    margin-left: 10%;
+    position: relative;
+}
+
+.texto {
+    width: 600px;
+    height: auto;  
+    background-color: white;
+    position: absolute;
+    padding: 5rem;
+    top: 40%;
+    left:50%;
+}
+
+.texto h3 {
+    font-size: 33px;
+    font-weight: 100;
+}
+
+.texto p {
+    font-size: 15px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 600px) {
+    .texto{
+        position: static;
+        padding: 1.5rem;
+    }
+    .foto{
+        margin: 1.5rem;
+        position: static;
+        max-width: 90%;
+    }
+}

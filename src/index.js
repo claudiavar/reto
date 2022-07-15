@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
+import Seccion1 from './components/Seccion1/Seccion1';
 import Footer from './components/Footer/Footer';
 import reportWebVitals from './reportWebVitals';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Footer />
+    <Seccion1/>
   </React.StrictMode>
 );
 

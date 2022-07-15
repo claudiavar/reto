@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { Navbar } from './components/Header/Nabvar';
+import { Navbar } from './components/Header/Grid';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
 

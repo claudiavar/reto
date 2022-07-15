@@ -18,6 +18,7 @@ text-decoration: underline;
         display: flex;
         flex-direction: column;        
     }
+   
     .lista a{
         padding-top: 0.5rem;
     }
